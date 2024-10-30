@@ -1,0 +1,392 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins -Kaya Login Captcha\n"
+"POT-Creation-Date: 2023-01-30 15:43+0100\n"
+"PO-Revision-Date: 2023-01-30 15:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: kayastudio\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_attr__;esc_html_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/kayastudio-admin-page-sidebar.php:19
+#: includes/kayastudio-admin-page.php:19
+#: includes/wpklc-admin-page-sidebar.php:17 includes/wpklc-admin-page.php:17
+#: lib/class.crud_login_captcha.php:47 lib/class.crud_login_captcha.php:71
+#: lib/class.crud_login_captcha.php:87 lib/class.crud_login_captcha.php:107
+#: lib/class.crud_login_captcha.php:131 lib/functions-database.php:22
+#: lib/functions-database.php:64 lib/functions-database.php:92
+msgid "You do not have sufficient permissions."
+msgstr "Vous ne disposez pas des autorisations suffisantes."
+
+#: includes/kayastudio-admin-page-sidebar.php:25
+#: includes/kayastudio-admin-page-sidebar.php:36
+msgid "Donate"
+msgstr "Faire un don"
+
+#: includes/kayastudio-admin-page-sidebar.php:28
+msgid "Support the advancement of this plugin"
+msgstr "Soutenir l'avancement de cette extension"
+
+#: includes/kayastudio-admin-page-sidebar.php:30
+msgid ""
+"You can give to support this plugin development and to encourage the "
+"developer for making open source softwares."
+msgstr ""
+"Vous pouvez donner pour soutenir le développement de cette extension et "
+"encourager le développeur à créer des logiciels open source."
+
+#: includes/kayastudio-admin-page-sidebar.php:33
+msgid "Make a donation with Paypal:"
+msgstr "Faites un don avec Paypal:"
+
+#: includes/kayastudio-admin-page-sidebar.php:39
+msgid "Make a donation with Bitcoin:"
+msgstr "Faites un don avec Bitcoin:"
+
+#: includes/kayastudio-admin-page-sidebar.php:42
+msgid "Make a donation with Bitcoin"
+msgstr "Faites un don avec Bitcoin"
+
+#: includes/kayastudio-admin-page.php:58
+msgid "WordPress plugins by Kaya Studio"
+msgstr "Extensions WordPress par Kaya Studio"
+
+#: includes/kayastudio-admin-page.php:60
+msgid ""
+"Kaya Studio is managed by a freelance web developer. These plugins are "
+"developed in his free time and for the love of making useful open source "
+"softwares."
+msgstr ""
+"Kaya Studio est géré par un développeur Web indépendant. Ces plugins sont "
+"développés pendant son temps libre et pour l'amour de créer des logiciels "
+"open source utiles."
+
+#: includes/kayastudio-admin-page.php:63
+msgid "Discover all the WordPress plugins developed by Kaya Studio."
+msgstr "Découvrez toutes les extensions WordPress développées par Kaya Studio."
+
+#: includes/kayastudio-admin-page.php:66
+msgid "All plugins by Kaya Studio"
+msgstr "Toutes les extensions de Kaya Studio"
+
+#: includes/kayastudio-admin-page.php:66
+msgid "All plugins"
+msgstr "Toutes les extensions"
+
+#: includes/wpklc-admin-page-sidebar.php:23
+msgid "Reviews"
+msgstr "Avis"
+
+#: includes/wpklc-admin-page-sidebar.php:26
+#: includes/wpklc-admin-page-sidebar.php:31 kaya-login-captcha.php:134
+msgid "Rate and review this plugin at WordPress.org"
+msgstr "Notez et évaluez cette extension sur WordPress.org"
+
+#: includes/wpklc-admin-page-sidebar.php:28
+msgid ""
+"Please take the time to let me know about your experience and rate this "
+"plugin."
+msgstr ""
+"Veuillez prendre le temps de me faire part de votre expérience et de noter "
+"cette extension."
+
+#: includes/wpklc-admin-page-sidebar.php:31 kaya-login-captcha.php:134
+msgid "Rate this plugin"
+msgstr "Notez cette extension"
+
+#: includes/wpklc-admin-page.php:25
+#, php-format
+msgid "%1$s - Version %2$s"
+msgstr "%1$s - Version %2$s"
+
+#: includes/wpklc-admin-page.php:40 lib/class.admin_dashboard_wpklc.php:48
+#: lib/class.admin_dashboard_wpklc.php:49
+msgid "Login Captcha"
+msgstr "Captcha de connexion"
+
+#: includes/wpklc-admin-page.php:42 lib/class.admin_dashboard_wpklc.php:67
+msgid ""
+"Adds a simple captcha on the login form, the register form and the lost-"
+"password form."
+msgstr ""
+"Ajoute un simple captcha sur le formulaire de connexion, le formulaire "
+"d'inscription et le formulaire de mot de passe perdu."
+
+#: includes/wpklc-admin-page.php:45
+msgid ""
+"You can choose here the captcha settings and the forms on which to display "
+"it."
+msgstr ""
+"Vous pouvez choisir ici les paramètres du captcha et les formulaires sur "
+"lesquels l'afficher."
+
+#: includes/wpklc-admin-page.php:46
+msgid ""
+"The blocked request HTTP status can be customized and the XML-RPC feature "
+"can be disabled (Warning: Some plugins need XML-RPC feature, like the "
+"Jetpack plugin)."
+msgstr ""
+"Le statut HTTP de la requête bloquée peut être personnalisé et la "
+"fonctionnalité XML-RPC peut être désactivée (Attention: certaines extensions "
+"nécessitent la fonctionnalité XML-RPC, comme l'extension Jetpack)."
+
+#: includes/wpklc-admin-page.php:51 kaya-login-captcha.php:107
+#: lib/class.admin_dashboard_wpklc.php:65
+msgid "Login Captcha settings"
+msgstr "Paramètres du Captcha de connexion"
+
+#: includes/wpklc-admin-page.php:63
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: includes/wpklc-admin-page.php:64
+msgid "Reset settings"
+msgstr "Réinitialiser les paramètres"
+
+#: includes/wpklc-admin-page.php:65
+msgid "Do you want to delete the current settings?"
+msgstr "Voulez-vous supprimer les paramètres actuels ?"
+
+#: includes/wpklc-admin-page.php:90
+msgid "GD and FreeType support:"
+msgstr "Prise en charge de GD et FreeType :"
+
+#: includes/wpklc-admin-page.php:91
+msgid ""
+"To have an optimal user experience with this plugin, it is recommended to "
+"have installed the GD library and the FreeType library. Please check your "
+"PHP configuration."
+msgstr ""
+"Pour avoir une expérience utilisateur optimale avec ce plugin, il est "
+"recommandé d'avoir installé la librairie GD et la librairie FreeType. "
+"Veuillez vérifier votre configuration PHP."
+
+#: includes/wpklc-admin-page.php:95
+msgid "Captcha preview with current saved settings:"
+msgstr "Aperçu du captcha avec les paramètres enregistrés actuels :"
+
+#: includes/wpklc-admin-page.php:122
+msgid "Captcha settings:"
+msgstr "Paramètres du captcha :"
+
+#: includes/wpklc-admin-page.php:137
+msgid "Captcha statistics"
+msgstr "Statistiques du Captcha"
+
+#: includes/wpklc-admin-page.php:147
+msgid "Login form statistics"
+msgstr "Statistiques du formulaire de connexion"
+
+#: includes/wpklc-admin-page.php:159 includes/wpklc-admin-page.php:204
+#: includes/wpklc-admin-page.php:249
+msgid "Passed"
+msgstr "Passé"
+
+#: includes/wpklc-admin-page.php:160 includes/wpklc-admin-page.php:205
+#: includes/wpklc-admin-page.php:250
+msgid "Blocked"
+msgstr "Bloqué"
+
+#: includes/wpklc-admin-page.php:192
+msgid "Lost-Password form statistics"
+msgstr "Statistiques du formulaire de mot de passe perdu"
+
+#: includes/wpklc-admin-page.php:237
+msgid "Register form statistics"
+msgstr "Statistiques du formulaire d'inscription"
+
+#: includes/wpklc-admin-page.php:282
+msgid "No statistics"
+msgstr "Pas de statistiques"
+
+#: includes/wpklc-admin-page.php:288
+msgid "Reset all statistics"
+msgstr "Réinitialiser toutes les statistiques"
+
+#: includes/wpklc-admin-page.php:289
+msgid "Do you want to delete all statistics?"
+msgstr "Voulez-vous supprimer toutes les statistiques ?"
+
+#: kaya-login-captcha.php:107
+msgid "Settings"
+msgstr "Réglages"
+
+#: kaya-login-captcha.php:108
+msgid "Other plugins by Kaya Studio"
+msgstr "Autres plugins de Kaya Studio"
+
+#: kaya-login-captcha.php:108
+msgid "Other plugins"
+msgstr "Autres plugins"
+
+#: kaya-login-captcha.php:135
+msgid "Donate to support the advancement of this plugin"
+msgstr "Faites un don pour soutenir l'avancement de cette extension"
+
+#: kaya-login-captcha.php:135
+msgid "Donate to this plugin"
+msgstr "Faire un don à cette extension"
+
+#: lib/class.admin_dashboard_wpklc.php:161
+msgid "Reset captcha statistics"
+msgstr "Réinitialiser les statistiques du captcha"
+
+#: lib/class.admin_dashboard_wpklc.php:223
+msgid "Error!"
+msgstr "Erreur !"
+
+#: lib/class.admin_dashboard_wpklc.php:229
+msgid "Success!"
+msgstr "Succès !"
+
+#: lib/class.crud_login_captcha.php:120
+msgid "Saving captcha settings"
+msgstr "Enregistrement des paramètres de captcha"
+
+#: lib/class.crud_login_captcha.php:143
+msgid "Reset captcha settings"
+msgstr "Réinitialiser les paramètres du captcha"
+
+#: lib/class.forms.php:65
+msgid "No layout found for field type:"
+msgstr "Aucune mise en page trouvée pour le type de champ :"
+
+#: lib/class.forms_captcha.php:27
+msgid "Enable Captcha on the login form (Dashboard and WooCommerce)"
+msgstr ""
+"Activez le Captcha sur le formulaire de connexion (Tableau de bord et "
+"WooCommerce)"
+
+#: lib/class.forms_captcha.php:33
+msgid "Enable Captcha on the lost-password form (Dashboard and WooCommerce)"
+msgstr ""
+"Activez le Captcha sur le formulaire de mot de passe perdu (Tableau de bord "
+"et WooCommerce)"
+
+#: lib/class.forms_captcha.php:39
+msgid "Enable Captcha on the register form (Dashboard and WooCommerce)"
+msgstr ""
+"Activez le Captcha sur le formulaire d'inscription (Tableau de bord et "
+"WooCommerce)"
+
+#: lib/class.forms_captcha.php:45
+msgid "Captcha length:"
+msgstr "Longueur du captcha :"
+
+#: lib/class.forms_captcha.php:46
+msgid "Length of the displayed captcha code."
+msgstr "Longueur du code captcha affiché."
+
+#: lib/class.forms_captcha.php:57
+msgid "Captcha format:"
+msgstr "Format du Captcha :"
+
+#: lib/class.forms_captcha.php:58
+msgid ""
+"Format of the displayed captcha code: numeric, alphabetic or alphanumeric."
+msgstr ""
+"Format du code captcha affiché : numérique, alphabétique ou alphanumérique."
+
+#: lib/class.forms_captcha.php:60
+msgid "Numeric"
+msgstr "Numérique"
+
+#: lib/class.forms_captcha.php:61
+msgid "Alphabetic"
+msgstr "Alphabétique"
+
+#: lib/class.forms_captcha.php:62
+msgid "Alphanumeric"
+msgstr "Alphanumérique"
+
+#: lib/class.forms_captcha.php:69
+msgid "Enable random lines in the background of the Captcha"
+msgstr "Activer les lignes aléatoires en arrière-plan du Captcha"
+
+#: lib/class.forms_captcha.php:75
+msgid "Blocked request HTTP status:"
+msgstr "Statut HTTP de la requête bloquée :"
+
+#: lib/class.forms_captcha.php:76
+msgid ""
+"Choose the HTTP status code when a request is blocked by a captcha error."
+msgstr ""
+"Choisissez le code d'état HTTP lorsqu'une requête est bloquée par une erreur "
+"du captcha."
+
+#: lib/class.forms_captcha.php:78
+msgid "No change (code: 200)"
+msgstr "Aucun changement (code : 200)"
+
+#: lib/class.forms_captcha.php:79
+msgid "Unauthorized (code: 401)"
+msgstr "Non autorisé (code : 401)"
+
+#: lib/class.forms_captcha.php:80
+msgid "Forbidden (code: 403)"
+msgstr "Interdit (code : 403)"
+
+#: lib/class.forms_captcha.php:87
+msgid "Disable the XML-RPC WordPress API"
+msgstr "Désactivez l'API WordPress XML-RPC"
+
+#: lib/class.forms_captcha.php:88
+msgid ""
+"Bots can try to login with the XML-RPC feature. Warning: Some plugins need "
+"this, like the Jetpack plugin."
+msgstr ""
+"Les robots peuvent essayer de se connecter avec la fonctionnalité XML-RPC. "
+"Attention: certaines extensions en ont besoin, comme l'extension Jetpack."
+
+#: lib/functions-login.php:25 lib/functions-login.php:49
+#: lib/functions-lostpassword.php:25 lib/functions-lostpassword.php:49
+#: lib/functions-register.php:25 lib/functions-register.php:49
+msgid "Security Code:"
+msgstr "Code de sécurité :"
+
+#: lib/functions-login.php:29 lib/functions-login.php:53
+#: lib/functions-lostpassword.php:29 lib/functions-lostpassword.php:53
+#: lib/functions-register.php:29 lib/functions-register.php:53
+msgid "Enter the security code:"
+msgstr "Entrez le code de sécurité :"
+
+#: lib/functions-login.php:90 lib/functions-login.php:99
+#: lib/functions-lostpassword.php:79 lib/functions-lostpassword.php:88
+#: lib/functions-register.php:87 lib/functions-register.php:96
+msgid "Error"
+msgstr "Erreur"
+
+#: lib/functions-login.php:90 lib/functions-lostpassword.php:79
+#: lib/functions-register.php:87 lib/functions-register.php:143
+msgid "Request error."
+msgstr "Erreur de demande."
+
+#: lib/functions.php:126
+msgid "Missing request ID."
+msgstr "ID de requête manquante."
+
+#: lib/functions.php:135
+msgid "Please enter the security code."
+msgstr "Entrez le code de sécurité s'il vous plaît."
+
+#: lib/functions.php:152
+msgid "Invalid or expired request."
+msgstr "Requête non valide ou expirée."
+
+#: lib/functions.php:161
+msgid "The security code entered is incorrect."
+msgstr "Le code de sécurité saisi est incorrect."
+
+#~ msgid "Required GD library is missing"
+#~ msgstr "La bibliothèque GD requise est manquante"
+
+#~ msgid "This is not the correct security code."
+#~ msgstr "Ce n'est pas le bon code de sécurité."
